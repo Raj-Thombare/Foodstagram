@@ -3,8 +3,12 @@
   text-align: center;
 }
 
+body {
+  background: linear-gradient(90deg, #659dbd, #daad86);
+  padding: 5rem;
+}
+
 input {
   padding: 1rem;
   width: 80%;
-  border: 3px solid black;
 }

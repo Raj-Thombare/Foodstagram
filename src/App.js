@@ -47,10 +47,13 @@ export default function App() {
   }
   return (
     <div className="App">
-      <h1 style={{ color: "orangered" }}>Welcome to Foodstagram</h1>
-      <input onChange={userInputHandler} />
-      <h3 style={{ color: "green" }}>{foodMeaning}</h3>
-      <h4 style={{ color: "grey" }}>Food We have </h4>
+      <h1 style={{ color: "" }}>Foodstagram😋</h1>
+      <input
+        onChange={userInputHandler}
+        placeholder="Search your emoji here..."
+      />
+      <h2 style={{ color: "red" }}>{foodMeaning}</h2>
+      <h4 style={{ color: "black" }}>Food We have </h4>
       <ul>
         {foodWeKnow.map((item) => {
           return (
