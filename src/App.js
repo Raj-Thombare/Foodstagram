@@ -5,7 +5,22 @@ var foodDictionary = {
   "🍕": "Pizza",
   "🍔": "Hamburger",
   "🍩": "Doughnut",
-  "🍫": " Chocolate Bar",
+  "🍫": "Chocolate Bar",
+  "🍗": "Poultry Leg",
+  "🥞": "Pancakes",
+  "🌭": "Hot Dog",
+  "🧇": "Waffle",
+  "🍟": "French Fries",
+  "🥪": "Sandwich",
+  "🧆": "Falafel",
+  "🥧": "Pie",
+  "🧁": "Cupcake",
+  "🎂": "Birthday Cake",
+  "🍪": "Cookie",
+  "🍮": "Custard",
+  "🍨": "Ice Cream",
+  "🍿": "Popcorn",
+  "🌮": "Taco",
   "🍭": "Lollipop"
 };
 
