@@ -9,18 +9,8 @@ var foodDictionary = {
   "🍗": "Poultry Leg",
   "🥞": "Pancakes",
   "🌭": "Hot Dog",
-  "🧇": "Waffle",
   "🍟": "French Fries",
   "🥪": "Sandwich",
-  "🧆": "Falafel",
-  "🥧": "Pie",
-  "🧁": "Cupcake",
-  "🎂": "Birthday Cake",
-  "🍪": "Cookie",
-  "🍮": "Custard",
-  "🍨": "Ice Cream",
-  "🍿": "Popcorn",
-  "🌮": "Taco",
   "🍭": "Lollipop"
 };
 
@@ -54,7 +44,7 @@ export default function App() {
       />
       <h2 style={{ color: "red" }}>{foodMeaning}</h2>
       <h4 style={{ color: "black" }}>Food We have </h4>
-      <ul>
+      <ul style={{ padding: "0px" }}>
         {foodWeKnow.map((item) => {
           return (
             <span
